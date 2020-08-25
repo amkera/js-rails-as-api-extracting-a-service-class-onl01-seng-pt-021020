@@ -25,6 +25,8 @@ class SightingSerializer
 #   }
 #   @sighting.to_json(options)
 # end
+
+#Above, we define a variable, options, assigning it to a hash. We then define two keys on that hash, :include and :except, and assign them the same values as before. Finally, at the end of the method, instead of filling to_json with a long list of options, we pass in the options hash.
   
 end
 
