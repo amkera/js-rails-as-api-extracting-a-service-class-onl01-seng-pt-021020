@@ -11,7 +11,7 @@ class SightingSerializer
     }, :except => [:updated_at])
   end 
   
-  #or: def to_serialized_json
+  #OR: def to_serialized_json
 #   options = {
 #     include: {
 #       bird: {
