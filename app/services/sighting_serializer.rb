@@ -1,0 +1,3 @@
+class SightingSerializer
+end
+
